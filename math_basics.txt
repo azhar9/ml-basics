@@ -1,0 +1,53 @@
+Types of data:
+1.Numerical
+    -> Discrete Data -> Integer
+        ex: how many ice creams a person bought today
+    -> Continous Data -> infinite number of possible values
+        ex: how much time did it take a user to check out
+
+2. Categorical
+    -No mathematical meaning
+    ex:Gender -> yes/no , product category etc
+
+3. Ordinal
+    -mix of numerical and categorical
+    -it has mathematical meaning
+    ex:movie ratings
+
+#########################################################
+
+mean = average of n values
+ex: mean of 1,2,3,4,5
+    mean = 1+2+3+4+5/5
+   " mean = sum_of_all_n_values/no_of_values "
+
+Median = sort the values in ascd-desc or desc to ascd then take
+         the middle value
+         1)if number of values are even -> take the two middle one add/2
+          ex: median of 1,2,3,4,5,6
+                median = sort of 1,2,3,4,5,6
+                since the number of values are 6
+                median = (3+4)/2
+          2)if number of values are odd -> take the middle one
+          ex: median of 1,2,3,4,5
+               median = sort of 1,2,3,4,5
+               since the number of values are 5
+               median = 5
+
+Mode = the most occuring value
+ex: mode of 0,0,1,2,3,2,2,7
+    freq of 0 - 2
+    freq of 1 - 1
+    freq of 2 - 3
+    freq of 7 - 1
+Since freq of 2 is more. It is the mode of the above list
+
+################################################################
+
+Standard deviation - tells us how much the data is spread out
+https://www.youtube.com/watch?v=MRqtXL2WX2M
+68-95-99.7 rule -> tells 68% data in 1sd,95$ in 2sd and 99.7% data in 3sd
+
+Variance meaures how spread-out the data is
+variance = average_of_squared_differences_from_mean
+Standard Deviation = sqrt of variance
